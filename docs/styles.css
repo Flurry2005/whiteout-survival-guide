@@ -2,12 +2,16 @@ html, body{
     margin: 0;
     padding: 0;
 }
-
+.bolded{
+    font-weight: bold;
+}
 a{
     color: black;
     font-weight: bold;
 }
-
+p[disabled] {
+  display: none;
+}
 main{
     display: flex;
     padding-left: 1rem;
