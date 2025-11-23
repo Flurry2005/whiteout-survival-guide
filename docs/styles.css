@@ -16,7 +16,23 @@ main{
     min-width: 90vw;
     max-width: 90vw;
 }
-
+#turk{
+    position: fixed;
+    border-radius: 50%;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 0;
+    color: white;
+    background-color: rgba(2, 113, 240, 0.973);
+    font-weight: bold;
+    height: 4rem;
+    width: 4rem;
+    bottom: 1rem;
+    right: 1rem;
+}
 main > *{
 
     min-width: 100%;
