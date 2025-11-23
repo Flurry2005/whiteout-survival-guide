@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-wrap: wrap;
+    min-width: 90vw;
+    max-width: 90vw;
+}
+
+main > *{
+
+    min-width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 1rem;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+header h1{
+    color: black;
+    min-width: max-content;
+}
+
+.main-nav{
+    min-width: max-content;
+}
